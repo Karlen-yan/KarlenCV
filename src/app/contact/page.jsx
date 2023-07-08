@@ -24,7 +24,7 @@ export default function Contact() {
         <li>Email:<a href="tel:karlentkzar@gmail.com"> karlentkzar@gmail.com</a></li>
         <li>Dirección:<a href="https://goo.gl/maps/HqUPzRD732FqBuMq7"> Via Favencia Barcelona, 08033</a></li>
         <li>Github:<a href="https://github.com/Karlen-yan/"> https://github.com/Karlen-yan/</a></li>
-        <li>Linledin: <a href="https://www.linkedin.com/in/karlen-hakobyan/">https://www.linkedin.com/in/karlen-hakobyan/</a></li>
+        <li>Linkedin: <a href="https://www.linkedin.com/in/karlen-hakobyan/">https://www.linkedin.com/in/karlen-hakobyan/</a></li>
       </ul>    
       
    </div>

@@ -1,37 +1,39 @@
+'use client'
+import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import ImageAuthor from "./../images/img_karlen.png";
 import './style.css'
-import ImageAuthor from './../images/img_karlen.png';
-
 export default function Experience() {
+  const { t } = useTranslation();
+
   return (
-   <div>
+    <div>
       <div className="cv">
         <div className="profile">
           <Image
-             src={ImageAuthor}
-             alt="Picture of the author"
-             width={200}
-             height={200}
-             />           
+            src={ImageAuthor}
+            alt="Picture of the author"
+            width={200}
+            height={200}
+          />
         </div>
         <div className="cv-content">
-          <h1>Experencía </h1>
+          <h1>{t("experienceTitle")}</h1>
         </div>
       </div>
       <div className="cv__container-text">
-        
-      <h2>Desarrollador web:</h2>
-        <h5>MIXO 2022 - 2023</h5>
-        <p>Como desarrollador web full-stack, he adquirido experiencia práctica en el desarrollo de frontend y backend a través de mi trabajo en varios proyectos, incluido Mixo. He sido responsable del diseño y desarrollo de páginas de sitios web, usando mis habilidades en tecnologías frontend y backend.</p>
+        <h2>{t("experienceItem1.title")}</h2>
+        <h5>{t("experienceItem1.date")}</h5>
+        <p>{t("experienceItem1.description")}</p>
 
-        <h2>Diseñador web</h2>
-        <h5>Mercat Immobiliari 2022</h5>
-        <p>Como diseñador web autodidacta, he desarrollado sitios web utilizando la plataforma WordPress, con especial foco en el sector inmobiliario a través del proyecto Mercat Immobiliari.</p>
-      
-        <h2>Ventas</h2>
-        <h5>Ereven, 2017, Yerevan (Armenia)</h5>
-        <p>Asistí a los clientes con sus compras y brindé recomendaciones de productos mientras realizaba tareas como cargar y descargar mercancías.</p>  
+        <h2>{t("experienceItem2.title")}</h2>
+        <h5>{t("experienceItem2.date")}</h5>
+        <p>{t("experienceItem2.description")}</p>
+
+        <h2>{t("experienceItem3.title")}</h2>
+        <h5>{t("experienceItem3.date")}</h5>
+        <p>{t("experienceItem3.description")}</p>
       </div>
-   </div>
-  )
+    </div>
+  );
 }

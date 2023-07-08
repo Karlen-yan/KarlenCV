@@ -250,6 +250,7 @@ background-color: #606e8c0c;
   padding:5px;
   color: white;
   cursor: pointer;
+  margin-top: 20px;
 }
 .content div button:hover{
   background-color: #4343437c;

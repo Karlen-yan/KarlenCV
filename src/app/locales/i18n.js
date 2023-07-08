@@ -26,7 +26,37 @@ i18n.use(initReactI18next).init({
         indexParagraph6:
           "Although I am a junior developer, I am committed to continue learning and improving my technical skills in web development.",
         welcomeTitle: "Welcome to my interactive full-stack web development CV",
-        technicalSkillsTitle: "My technical skills"
+        technicalSkillsTitle: "My technical skills",
+        
+        aboutTitle: "About Me",
+        aboutContent: {
+          paragraph1: "Hello everyone! My name is Karlen Hakobyan and I'm delighted to share a little bit about myself with you. I am a passionate web developer with a strong desire to turn ideas into reality.",
+          paragraph2: "I have completed a Higher Degree in Web Development, where I acquired a solid set of skills and knowledge necessary to face the challenges of the programming world. However, my passion for music is what truly defines me.",
+          paragraph3: "For a long time, I have been playing Armenian wind instruments such as the duduk, zurna, parkapzuk, and shvi. Music is my true escape and an endless source of inspiration for my work as a web developer.",
+          paragraph4: "Creativity is one of the key elements that I apply in web design and development. I always seek new ideas and innovative solutions to make my projects stand out and provide an exceptional experience.",
+          paragraph5: "Before embarking on my web design training, I started learning on my own as a self-taught learner. It was then that I discovered my passion for this field and decided to study it formally. This proactivity and dedication demonstrate my motivation to learn and constantly grow.",
+          paragraph6: "In addition, I enjoy working in collaborative teams, where I can contribute my ideas and constructive suggestions. Actively participating in team meetings allows me to improve code quality and development efficiency. I consider teamwork essential to achieve outstanding results.",
+        },
+
+        experienceTitle: "Experience",
+        experienceItem1: {
+          title: "Web Developer",
+          date: "MIXO 2022 - 2023",
+          description:
+            "As a full-stack web developer, I have gained practical experience in frontend and backend development through my work on various projects, including Mixo. I have been responsible for designing and developing website pages, using my skills in frontend and backend technologies.",
+        },
+        experienceItem2: {
+          title: "Web Designer",
+          date: "Mercat Immobiliari 2022",
+          description:
+            "As a self-taught web designer, I have developed websites using the WordPress platform, with a special focus on the real estate sector through the Mercat Immobiliari project.",
+        },
+        experienceItem3: {
+          title: "Sales",
+          date: "Ereven, 2017, Yerevan (Armenia)",
+          description:
+            "I assisted customers with their purchases and provided product recommendations while performing tasks such as loading and unloading merchandise.",
+        },
       }
     },
     ES: {
@@ -53,7 +83,35 @@ i18n.use(initReactI18next).init({
         welcomeTitle:
           "Bienvenidos a mi CV interactivo de desarrollo web full stack",
         technicalSkillsTitle: "Mis habilidades técnicas",
-        
+        aboutTitle: "Sobre mí",
+        aboutContent: {
+          paragraph1: "¡Hola a todos! Mi nombre es Karlen Hakobyan y me complace compartir con ustedes un poco sobre mí. Soy un apasionado desarrollador web con un fuerte deseo de convertir ideas en realidad.",
+          paragraph2: "He completado un Grado Superior en Desarrollo de Aplicaciones Web, donde adquirí un conjunto sólido de habilidades y conocimientos necesarios para enfrentar los desafíos del mundo de la programación. Sin embargo, mi pasión por la música es lo que realmente me define.",
+          paragraph3: "Desde hace tiempo, he estado tocando instrumentos de viento armenios como el duduk, zurna, parkapzuk y shvi. La música es mi verdadero escape y una fuente inagotable de inspiración para mi trabajo como desarrollador web.",
+          paragraph4: "La creatividad es uno de los elementos clave que aplico en el diseño y desarrollo de aplicaciones web. Siempre busco nuevas ideas y soluciones innovadoras para hacer que mis proyectos se destaquen y brinden una experiencia excepcional.",
+          paragraph5: "Antes de embarcarme en mi formación en diseño web, comencé a aprender por mi cuenta de forma autodidacta. Fue entonces cuando descubrí mi pasión por este campo y decidí estudiarlo formalmente. Esta proactividad y dedicación demuestran mi motivación para aprender y crecer constantemente.",
+          paragraph6: "Además, disfruto trabajando en equipos colaborativos, donde puedo aportar mis ideas y sugerencias constructivas. Participar activamente en reuniones de equipo me permite mejorar la calidad del código y la eficiencia del desarrollo. Considero que el trabajo en equipo es esencial para lograr resultados sobresalientes.",
+        },
+
+        experienceTitle: "Experiencia",
+    experienceItem1: {
+      title: "Desarrollador web",
+      date: "MIXO 2022 - 2023",
+      description:
+        "Como desarrollador web full-stack, he adquirido experiencia práctica en el desarrollo de frontend y backend a través de mi trabajo en varios proyectos, incluido Mixo. He sido responsable del diseño y desarrollo de páginas de sitios web, usando mis habilidades en tecnologías frontend y backend.",
+    },
+    experienceItem2: {
+      title: "Diseñador web",
+      date: "Mercat Immobiliari 2022",
+      description:
+        "Como diseñador web autodidacta, he desarrollado sitios web utilizando la plataforma WordPress, con especial foco en el sector inmobiliario a través del proyecto Mercat Immobiliari.",
+    },
+    experienceItem3: {
+      title: "Ventas",
+      date: "Ereven, 2017, Yerevan (Armenia)",
+      description:
+        "Asistí a los clientes con sus compras y brindé recomendaciones de productos mientras realizaba tareas como cargar y descargar mercancías.",
+    },
       }
     }
   },
