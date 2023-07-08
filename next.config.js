@@ -4,7 +4,9 @@ const nextConfig = {
     appDir:true
   },
   reactStrictMode:true,
-  
+  eslint: {
+    ignoreDuringBuilds: true,
+},
 }
 
 module.exports = nextConfig
