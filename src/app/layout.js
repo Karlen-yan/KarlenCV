@@ -16,11 +16,6 @@ import html2pdf from 'html2pdf.js';
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Mi nuevo cv",
-  description: "Una aplicación para demostrar mi cv"
-};
-
 function RootLayout({ children }) {
   const { t, i18n } = useTranslation();
 
