@@ -1,6 +1,5 @@
-'use client'
-import { useTranslation } from 'react-i18next';
-
+"use client";
+import { useTranslation } from "react-i18next";
 
 const LanguageButton = ({ language, currentLanguage, onChangeLanguage }) => {
   const { t, i18n } = useTranslation();
@@ -11,7 +10,10 @@ const LanguageButton = ({ language, currentLanguage, onChangeLanguage }) => {
   };
 
   return (
-    <button onClick={handleLanguageChange} disabled={currentLanguage === language}>
+    <button
+      onClick={handleLanguageChange}
+      disabled={currentLanguage === language}
+    >
       {t(`${language}`)}
     </button>
   );

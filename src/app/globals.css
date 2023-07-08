@@ -8,16 +8,16 @@ body {
 .container {
   display: flex;
   border: none;
-  box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.601),1px 1px 50px 5px white, 3px 3px 600px 2px white, 4px 4px  650px 1px #0146ad;
-  /* box-shadow: 0 0 40px 2px silver; */
+  box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.601), 1px 1px 50px 5px white,
+    3px 3px 600px 2px white, 4px 4px 650px 1px #0146ad;
   justify-content: space-between;
   width: 70%;
   min-height: 600px;
   margin: 15px auto;
   padding: 5px;
   flex-direction: row;
-  margin-top:30px;
-} 
+  margin-top: 30px;
+}
 @media (max-width: 900px) {
   .container {
     flex-direction: column-reverse;
@@ -33,10 +33,8 @@ body {
     flex-direction: column;
     border-radius: 10px;
     width: 100%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
-
- 
 
   .menu li {
     text-align: center;
@@ -47,18 +45,16 @@ body {
     color: white;
     text-decoration: none;
   }
-  
 }
 @media (max-width: 900px) {
   .menu.open {
     display: flex;
     max-width: 74%;
   }
-
 }
-.img{
-    width: 200px;
-    border: 1px solid silver; 
+.img {
+  width: 200px;
+  border: 1px solid silver;
 }
 
 .navbar {
@@ -79,7 +75,6 @@ body {
   margin-bottom: 4px;
 }
 
-
 @media (max-width: 900px) {
   .container {
     flex-direction: column-reverse;
@@ -95,7 +90,7 @@ body {
     display: none;
     flex-direction: column;
     padding: 5px;
-    border-radius:none;
+    border-radius: none;
   }
 
   .open {
@@ -117,9 +112,9 @@ body {
   }
 }
 
-.img{
-    width: 200px;
-    border: 1px solid silver; 
+.img {
+  width: 200px;
+  border: 1px solid silver;
 }
 
 .menu li {
@@ -128,15 +123,15 @@ body {
   margin-top: 15px;
   font-size: 20px;
   text-align: center;
-  border:solid 2px silver;
-  border-radius:30px 0 30px 0;
+  border: solid 2px silver;
+  border-radius: 30px 0 30px 0;
   padding: 5px 20px 5px 20px;
   flex-direction: row;
 }
 .menu li:hover {
   background-color: #0146ad;
 }
-.menu a{
+.menu a {
   text-decoration: none;
   text-align: right;
   width: 100%;
@@ -151,7 +146,7 @@ body {
 
 .cv {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .profile {
@@ -161,7 +156,7 @@ body {
 
 .cv-content {
   flex-grow: 1;
-  padding-left: 15%; 
+  padding-left: 15%;
 }
 
 .cv-content h2 {
@@ -184,41 +179,41 @@ body {
 }
 
 /* timer  */
-.timer__container{
+.timer__container {
   position: relative;
 }
-.timer__item{
-position: fixed;
-right: 33px;
-top: 0;
-width: 145px;
-height: 80px;
-color: white;
-text-align: center;
-background-color: #606e8c0c;
+.timer__item {
+  position: fixed;
+  right: 33px;
+  top: 0;
+  width: 145px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  background-color: #606e8c0c;
 }
-.timer__item h2{
+.timer__item h2 {
   font-size: 15px;
 }
-.timer__item h1{
-  text-shadow: 0 0 15px  #0146ad,1px 1px 2px   black;
+.timer__item h1 {
+  text-shadow: 0 0 15px #0146ad, 1px 1px 2px black;
   font-size: 40px;
   font-weight: 500;
 }
-.timer__item p{
+.timer__item p {
   font-size: 10px;
   padding-bottom: 0;
   margin-bottom: 0;
   margin: 10px;
 }
 /* index page icons  */
-.about__continer h1{
+.about__continer h1 {
   background-color: #0146ad;
   text-shadow: 0 0 14px white, 1px 1px 15px black;
   color: white;
   padding: 15px;
 }
-.about__continer-icons{
+.about__continer-icons {
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: row; */
@@ -232,38 +227,33 @@ background-color: #606e8c0c;
   padding: 10px;
 }
 
-/* .about__continer-icons svg {
-  width: 90%;
-  height: auto;
-} */
- /* no  - select  */
- .no-select {
-  -webkit-user-select: none; 
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  user-select: none; 
+/* no  - select  */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* button descargas */
-.content div button{
+.content div button {
   background-color: #0146ad;
-  padding:5px;
+  padding: 5px;
   color: white;
   cursor: pointer;
   margin-top: 20px;
 }
-.content div button:hover{
+.content div button:hover {
   background-color: #4343437c;
-  
 }
 
 /* button languege */
 .language-buttons {
-  position:relative;
-} 
-.language-buttons *{ 
+  position: relative;
+}
+.language-buttons * {
   border: none;
-  background-color:#0146ad;
+  background-color: #0146ad;
   color: white;
   padding: 5px;
   margin: 5px;
@@ -272,7 +262,7 @@ background-color: #606e8c0c;
 .language-buttons button[disabled] {
   background-color: #43434371;
 }
-.language-buttons *:hover{
-  background-color: #EBECF0;
+.language-buttons *:hover {
+  background-color: #ebecf0;
   color: #0146ad;
-} 
+}

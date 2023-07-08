@@ -20,32 +20,32 @@ const Navbar = ({ currentLanguage }) => {
       <ul className={`menu ${menuOpen ? "open" : ""}`}>
         <li>
           <Link href="/">
-            {t('home')}
+            {t("home")}
           </Link>
         </li>
         <li>
           <Link href="/about">
-            {t('about')}
+            {t("about")}
           </Link>
         </li>
         <li>
           <Link href="/experience">
-            {t('experience')}
+            {t("experience")}
           </Link>
         </li>
         <li>
           <Link href="/languege">
-            {t('language')}
+            {t("language")}
           </Link>
         </li>
         <li>
           <Link href="/contact">
-            {t('contact')}
+            {t("contact")}
           </Link>
         </li>
         <li>
           <Link href="/formations">
-            {t('formations')}
+            {t("formations")}
           </Link>
         </li>
       </ul>

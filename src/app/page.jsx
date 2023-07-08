@@ -1,8 +1,8 @@
-'use client'
+"use client";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useTranslation } from 'react-i18next';
-import i18n from './locales/i18n';
+import { useTranslation } from "react-i18next";
+import i18n from "./locales/i18n";
 
 import {
   faPython,
@@ -17,13 +17,13 @@ import {
   faBootstrap,
   faWordpress,
   faGit,
-  faGithub,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function AboutPage({ currentLanguage }) {
   const { t } = useTranslation();
 
-  console.log('currentLanguage:', currentLanguage);
+  console.log("currentLanguage:", currentLanguage);
 
   const pythonColors = ["#3776AB", "#FFD43B", "#4B8BBE", "#FF4500"];
   const jsColors = ["#F7DF1E", "#323330", "#F0DB4F"];
@@ -45,15 +45,18 @@ export default function AboutPage({ currentLanguage }) {
     wordpress: "#21759b",
     objectGroup: "#f7df1e",
     git: "#F05032",
-    github: "#181717",
+    github: "#181717"
   };
 
   return (
-
     <div className="about__continer">
-      <h1>{t('welcomeTitle')}</h1>
+      <h1>
+        {t("welcomeTitle")}
+      </h1>
 
-      <h2>{t('technicalSkillsTitle')}</h2>
+      <h2>
+        {t("technicalSkillsTitle")}
+      </h2>
       <div className="about__continer-icons">
         <FontAwesomeIcon
           icon={faPython}
@@ -109,12 +112,24 @@ export default function AboutPage({ currentLanguage }) {
         />
       </div>
 
-      <p>{t('indexParagraph1')}</p>
-      <p>{t('indexParagraph2')}</p>
-      <p>{t('indexParagraph3')}</p>
-      <p>{t('indexParagraph4')}</p>
-      <p>{t('indexParagraph5')}</p>
-      <p>{t('indexParagraph6')}</p>
+      <p>
+        {t("indexParagraph1")}
+      </p>
+      <p>
+        {t("indexParagraph2")}
+      </p>
+      <p>
+        {t("indexParagraph3")}
+      </p>
+      <p>
+        {t("indexParagraph4")}
+      </p>
+      <p>
+        {t("indexParagraph5")}
+      </p>
+      <p>
+        {t("indexParagraph6")}
+      </p>
     </div>
   );
 }

@@ -20,12 +20,10 @@
   justify-content:space-around;
   
 }
-
 @media (max-width: 900px) {
 .formations__container div{
   flex-direction: column;
   justify-content: center;
-  
 }
 .formations__container div *{
    margin-top: 15px;
