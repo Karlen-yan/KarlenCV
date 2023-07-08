@@ -6,7 +6,7 @@ import FlagSpine from './../images/España.png';
 import FlagUSA from './../images/USA.png';
 import FlagRussian from './../images/russian.png';
 
-export default function langueges() {
+export default function languages() {
   return (
    <div>
       <div className="cv">

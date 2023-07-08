@@ -1,0 +1,17 @@
+{
+ " home":"Home",
+ " about": "About",
+  "experience": "Experience",
+  "languege": "Language",
+ " contact": "Contact",
+  "formations": "Education",
+  "downloadCV": "Download",
+  "indexParagraph1": "I have experience in web development using a variety of technologies, including Java, Vue.js, PHP, Node.js, Express, and MongoDB. I am also familiar with relational databases like MySQL and PostgreSQL, and I have skills in version control systems like Git and GitHub.",
+  "indexParagraph2": "Additionally, I have knowledge in front-end technologies such as HTML5 and CSS3, and I have worked with modern frameworks like Next.js and Bootstrap 5. I also have experience using UI libraries like Material UI to create attractive and responsive interfaces.",
+ " indexParagraph3": "In the backend development field, I have worked with Node.js and Express to create robust and scalable APIs. I have also used NoSQL databases like MongoDB for efficient data storage.",
+ " indexParagraph4": "Furthermore, I have experience using Flask, a Python framework, for rapid web application development. I have also explored the field of big data using Pandas and Matplotlib for data analysis and visualization.",
+ " indexParagraph5": "I also have knowledge in WordPress for website creation and customization, as well as a strong understanding of object-oriented programming in Java, Python, JavaScript, and PHP.",
+  "indexParagraph6": "Although I am a junior developer, I am committed to continue learning and improving my technical skills in web development.",
+  "welcomeTitle": "Welcome to my interactive full-stack web development CV",
+  "technicalSkillsTitle": "My technical skills"
+}

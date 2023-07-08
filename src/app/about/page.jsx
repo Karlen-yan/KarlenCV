@@ -18,7 +18,7 @@ export default function AboutPage() {
         </div>
       </div>
       <div className="cv__content-text">
-      <p>¡Hola a todos! Mi nombre es [tu nombre] y me complace compartir con ustedes un poco sobre mí. Soy un apasionado desarrollador web con un fuerte deseo de convertir ideas en realidad.</p>
+      <p>¡Hola a todos! Mi nombre es Karlen Hakobyan y me complace compartir con ustedes un poco sobre mí. Soy un apasionado desarrollador web con un fuerte deseo de convertir ideas en realidad.</p>
 
 <p>He completado un Grado Superior en Desarrollo de Aplicaciones Web, donde adquirí un conjunto sólido de habilidades y conocimientos necesarios para enfrentar los desafíos del mundo de la programación. Sin embargo, mi pasión por la música es lo que realmente me define.</p>
 
