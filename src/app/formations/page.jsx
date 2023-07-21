@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import "./style.css";
-import ImageAuthor from "./../images/img_karlen.png";
-import Certificate from "./../images/Certificado_PF_DAW.jpg";
-import CertificateSoc from "./../images/Certificado_creacion_publicacion_paginas_web.png";
-import CertificateSocDescription from "./../images/Certificado_soc_intraducion_horas.png";
+import ImageAuthor from "./../../../images/img_karlen.png";
+import Certificate from "./../../../images/Certificado_PF_DAW.jpg";
+import CertificateSoc from "./../../../images/Certificado_creacion_publicacion_paginas_web.png";
+import CertificateSocDescription from "./../../../images/Certificado_soc_intraducion_horas.png";
 import { useTranslation } from "react-i18next";
 
 export default function Formations() {

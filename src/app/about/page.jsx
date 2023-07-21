@@ -2,8 +2,8 @@
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 import "./style.css";
-import ImageAuthor from "./../images/img_karlen.png";
-import i18n from "../locales/i18n";
+import ImageAuthor from "./../../../images/img_karlen.png";
+import i18n from "../../../locales/i18n";
 
 export default function AboutPage() {
   const { t } = useTranslation();

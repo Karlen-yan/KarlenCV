@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import "./style.css";
-import ImageAuthor from "./../images/img_karlen.png";
+import ImageAuthor from "./../../../images/img_karlen.png";
 import { useTranslation } from "react-i18next";
 
 export default function Contact() {

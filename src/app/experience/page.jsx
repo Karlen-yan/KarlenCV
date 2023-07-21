@@ -1,7 +1,7 @@
 'use client'
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import ImageAuthor from "./../images/img_karlen.png";
+import ImageAuthor from "./../../../images/img_karlen.png";
 import './style.css'
 export default function Experience() {
   const { t } = useTranslation();

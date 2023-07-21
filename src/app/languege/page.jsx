@@ -1,11 +1,11 @@
 'use client'
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import ImageAuthor from "./../images/img_karlen.png";
-import FlagArmenian from "./../images/Armenia.png";
-import FlagSpanish from "./../images/España.png";
-import FlagUSA from "./../images/USA.png";
-import FlagRussian from "./../images/russian.png";
+import ImageAuthor from "./../../../images/img_karlen.png";
+import FlagArmenian from "./../../../images/Armenia.png";
+import FlagSpanish from "./../../../images/España.png";
+import FlagUSA from "./../../../images/USA.png";
+import FlagRussian from "./../../../images/russian.png";
 import './style.css';
 
 export default function Languages() {

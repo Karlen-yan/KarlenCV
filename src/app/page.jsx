@@ -2,7 +2,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslation } from "react-i18next";
-import i18n from "./locales/i18n";
+import i18n from "../../locales/i18n";
 
 import {
   faPython,
