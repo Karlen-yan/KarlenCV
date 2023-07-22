@@ -1,12 +1,13 @@
 {
   "name": "karlen-cv",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=14 <15"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -33,8 +34,5 @@
     "eslint": "^8.45.0",
     "eslint-config-next": "^13.4.12",
     "standard": "^17.1.0"
-  },
-  "engines": {
-    "node": ">=14 <15"
   }
 }
